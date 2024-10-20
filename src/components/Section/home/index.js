@@ -26,19 +26,26 @@ export default function Home() {
               className={`flex items-center justify-center flex-col overflow-hidden h-full w-full relative z-20 pt-20 md:pb-28 pb-32`}
             >
               <div className="h-28 w-28 md:h-36 md:w-36 overflow-hidden rounded-full bg-white mb-4">
+                {/* TODO: change the photo  */}
                 <img src={avatar} alt="avatar" />
               </div>
               <h2 className="text-3xl md:text-4xl font-medium pb-4 pt-2 ">
                 <Fade up cascade>
-                  Tahir Ahmad (Sani)
+                  Md Tanzil
                 </Fade>
               </h2>{" "}
               <Typed
                 strings={[
-                  "Web developer",
-                  "Web designer",
+                  "Software Engineer",
+                  "Full-Stack Developer",
+                  "JavaScript Specialist",
                   "React Developer",
-                  "UI/UX designer",
+                  "NextJs Developer",
+                  "Python Programmer",
+                  "Next.js Developer",
+                  "Backend Developer",
+                  "Django Developer",
+                  "Django REST Framework Developer",
                 ]}
                 typeSpeed={90}
                 backSpeed={80}
@@ -64,7 +71,7 @@ export default function Home() {
                 <Link to="/contact">
                   <Button name="Get in touch" />
                 </Link>
-
+                {/* TODO: Change The Link  */}
                 <a
                   href="https://drive.google.com/uc?export=download&id=1k2sWD02DE43O65nkMLJ-s3GtwtYZrhPI"
                   download

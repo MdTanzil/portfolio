@@ -22,27 +22,22 @@ export default function About() {
         <div className="md:grid items-center md:gap-3 lg:gap-4 grid-cols-9 md:col-start-9">
           <div className="md:col-span-5 lg:col-span-5 lg:pr-28">
             <Fade up cascade>
-              <h3>Hello! I Am Tahir Ahmad.</h3>{" "}
+              <h3>Hello! I Am Md Tanzil.</h3>{" "}
               <p className="text-sm">
-                As an experienced front-end developer with React.js, I have been
-                actively involved in web development since 2020. My skill set
-                includes proficiency in HTML5, CSS3, CSS3 Animation, Bootstrap,
-                JavaScript, jQuery, jQuery Animation, React.js, Redux, and
-                Next.js. I am also adept at converting PSD, image, and PDF
-                designs into clean and responsive HTML code. With a keen eye for
-                creating stunning website effects and a focus on maintaining
-                clean and effective cross-browser support, I ensure seamless
-                performance across different platforms. I am also an active
-                contributor to open-source projects on GitHub, showcasing my
-                commitment to the development community. My expertise in clean
-                coding practices ensures that I deliver efficient and
-                maintainable code for optimal website performance.
+                As an software engineer, I specialize in JavaScript, React.js,
+                Next.js, Python, Django, and Django REST framework. Since 2020,
+                I’ve built dynamic and responsive web applications, focusing on
+                creating user-friendly interfaces and robust back-end
+                functionality. I excel at converting complex requirements into
+                clean, maintainable code, ensuring cross-browser compatibility
+                and optimized performance. My goal is always to deliver software
+                that is both efficient and meets the needs of users.
               </p>
               <div className="mt-5">
                 <Fade up>
-                  <Info name="email" details="tahirahmad0234@gamil.com" />
-                  <Info name="phone" details="+8801610881871" />
-                  <Info name="address" details="Rajshahi, Bangladesh" />
+                  <Info name="email" details="mtanzil1999@gamil.com" />
+                  <Info name="phone" details="+8801645100787" />
+                  <Info name="address" details="Dhaka, Bangladesh" />
                   <Info name="status" details="Available" />
                 </Fade>
               </div>
@@ -50,6 +45,7 @@ export default function About() {
           </div>
           <Zoom>
             <div className="h-auto w-full mt-5 md:mt-0 overflow-hidden rounded-xl md:col-span-4 lg:col-span-4 aspect-[4/4]">
+              {/* TODO: Change the Picture */}
               <img src={picture} alt="" className="w-full" />
             </div>{" "}
           </Zoom>
