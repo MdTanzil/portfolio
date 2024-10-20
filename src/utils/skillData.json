@@ -7,22 +7,7 @@
     "name": "css",
     "progress": 85
   },
-  {
-    "name": "Javascript",
-    "progress": 85
-  },
-  {
-    "name": "JQuery",
-    "progress": 85
-  },
-  {
-    "name": "Sass",
-    "progress": 75
-  },
-  {
-    "name": "Materialize",
-    "progress": 65
-  },
+
   {
     "name": "Bootstrap",
     "progress": 80
@@ -32,12 +17,29 @@
     "progress": 80
   },
   {
+    "name": "Javascript",
+    "progress": 85
+  },
+  {
     "name": "React",
     "progress": 85
   },
   {
     "name": "Next",
-    "progress": 65
+    "progress": 75
+  },
+
+  {
+    "name": "Python",
+    "progress": 80
+  },
+  {
+    "name": "Django",
+    "progress": 70
+  },
+  {
+    "name": "DRF",
+    "progress": 80
   },
   {
     "name": "git",
@@ -46,21 +48,5 @@
   {
     "name": "github",
     "progress": 85
-  },
-  {
-    "name": "Figme",
-    "progress": 75
-  },
-  {
-    "name": "Adobe xd",
-    "progress": 55
-  },
-  {
-    "name": "Adobe Photoshop",
-    "progress": 35
-  },
-  {
-    "name": "Adobe Illustrator",
-    "progress": 25
   }
 ]

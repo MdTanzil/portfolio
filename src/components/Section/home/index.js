@@ -3,7 +3,7 @@ import { Fade } from "react-reveal";
 import { Link } from "react-router-dom";
 import Typed from "react-typed";
 import Wave from "react-wavify";
-import avatar from "../../../assets/images/avater.webp";
+import avatar from "../../../assets/images/avater.jpg";
 import useWindowDimensions from "../../../hook/getWindowDimensions";
 import SocialBtn from "../../socialBtn";
 import socialBtnList from "./../../../utils/socialBtnList.json";
@@ -26,7 +26,6 @@ export default function Home() {
               className={`flex items-center justify-center flex-col overflow-hidden h-full w-full relative z-20 pt-20 md:pb-28 pb-32`}
             >
               <div className="h-28 w-28 md:h-36 md:w-36 overflow-hidden rounded-full bg-white mb-4">
-                {/* TODO: change the photo  */}
                 <img src={avatar} alt="avatar" />
               </div>
               <h2 className="text-3xl md:text-4xl font-medium pb-4 pt-2 ">

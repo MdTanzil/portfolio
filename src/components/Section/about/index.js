@@ -23,15 +23,16 @@ export default function About() {
           <div className="md:col-span-5 lg:col-span-5 lg:pr-28">
             <Fade up cascade>
               <h3>Hello! I Am Md Tanzil.</h3>{" "}
-              <p className="text-sm">
-                As an software engineer, I specialize in JavaScript, React.js,
-                Next.js, Python, Django, and Django REST framework. Since 2020,
-                I’ve built dynamic and responsive web applications, focusing on
-                creating user-friendly interfaces and robust back-end
-                functionality. I excel at converting complex requirements into
-                clean, maintainable code, ensuring cross-browser compatibility
-                and optimized performance. My goal is always to deliver software
-                that is both efficient and meets the needs of users.
+              <p className="text-sm text-justify">
+                I'm a software engineer with a focus on Python, Django, Next.js,
+                React.js, JavaScript, and the Django REST framework. I have been
+                developing dynamic and responsive web applications since 2020,
+                with an emphasis on user-friendly interface design and strong
+                back-end functionality. I'm great at translating intricate
+                specifications into clear, manageable code that ensures
+                cross-browser compatibility and optimal performance. My constant
+                objective is to provide consumers with software that is
+                user-friendly and efficient.
               </p>
               <div className="mt-5">
                 <Fade up>
@@ -45,7 +46,6 @@ export default function About() {
           </div>
           <Zoom>
             <div className="h-auto w-full mt-5 md:mt-0 overflow-hidden rounded-xl md:col-span-4 lg:col-span-4 aspect-[4/4]">
-              {/* TODO: Change the Picture */}
               <img src={picture} alt="" className="w-full" />
             </div>{" "}
           </Zoom>
