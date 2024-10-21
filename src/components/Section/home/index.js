@@ -36,15 +36,12 @@ export default function Home() {
               <Typed
                 strings={[
                   "Software Engineer",
-                  "Full-Stack Developer",
                   "JavaScript Specialist",
                   "React Developer",
-                  "NextJs Developer",
-                  "Python Programmer",
                   "Next.js Developer",
-                  "Backend Developer",
+                  "Full-Stack Developer",
+                  "Python Programmer",
                   "Django Developer",
-                  "Django REST Framework Developer",
                 ]}
                 typeSpeed={90}
                 backSpeed={80}
@@ -70,9 +67,8 @@ export default function Home() {
                 <Link to="/contact">
                   <Button name="Get in touch" />
                 </Link>
-                {/* TODO: Change The Link  */}
                 <a
-                  href="https://drive.google.com/uc?export=download&id=1k2sWD02DE43O65nkMLJ-s3GtwtYZrhPI"
+                  href="https://drive.google.com/file/d/1dIG0RLcB40FrgqD6X7yekoXq6x_0F_pB/view?usp=sharing"
                   download
                 >
                   <Button name="Download CV" />

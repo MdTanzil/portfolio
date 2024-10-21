@@ -45,8 +45,8 @@ export default function Layout({ children }) {
             scrollY > 90 && (
               <>
                 <WhatsAppWidget
-                  phoneNumber="+8801610881871"
-                  companyName="Tahir Ahmad"
+                  phoneNumber="+8801645100787"
+                  companyName="Md Tanzil"
                   replyTimeText="Typically replies within an hour"
                   sendButton="send"
                   message="Hello! how can I help you?"
@@ -56,8 +56,8 @@ export default function Layout({ children }) {
             )
           ) : (
             <WhatsAppWidget
-              phoneNumber="+8801610881871"
-              companyName="Tahir Ahmad"
+              phoneNumber="+8801645100787"
+              companyName="Md Tanzil"
               replyTimeText="Typically replies within an hour"
               sendButton="send"
               message="Hello! how can I help you?"
