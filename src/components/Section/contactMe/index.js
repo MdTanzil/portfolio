@@ -18,10 +18,11 @@ export default function ContactMe() {
 
     await emailjs
       .sendForm(
-        "service_sob3n6t", //SERVICE ID
-        "template_ol3bs8a", //TEMPLATE ID
+        "service_hko4fgl", //SERVICE ID
+        "template_37zrbxq", //TEMPLATE ID
         form.current,
-        "q-Wr4qVce_T4pGFt2" // PUBLIC KEY
+        // PUBLIC KEY
+        "ALqTqkq3uDSwdduyG"
       )
       .then(
         (result) => {
@@ -33,6 +34,7 @@ export default function ContactMe() {
           }).then(setShowContactForm(false));
         },
         (err) => {
+          // console.log(err);
           swal({
             title: "Something went wrong",
             icon: "error",
@@ -69,43 +71,37 @@ export default function ContactMe() {
                 <SocialContact
                   icon="fa-solid fa-envelope"
                   name="email"
-                  link="mailto:tahirahmad0234@gmail.com"
+                  link="mailto:mtanzil1999@gmail.com"
                   delay={100}
                 />
                 <SocialContact
                   icon="fa-brands fa-whatsapp"
                   name="whatsapp"
-                  link="https://wa.me/+8801610881871/"
+                  link="https://wa.me/+8801645100787/"
                   delay={150}
                 />
                 <SocialContact
                   icon="fa-brands fa-facebook-messenger"
                   name="messenger"
-                  link="https://www.messenger.com/t/tahirahmad01"
-                  delay={200}
-                />
-                <SocialContact
-                  icon="fab fa-line"
-                  name="line"
-                  link="https://line.me/ti/p/DTFqKxFPcn"
+                  link="https://www.messenger.com/t/mdtanzil1999"
                   delay={200}
                 />
                 <SocialContact
                   icon="fab fa-linkedin-in"
                   name="linkedin"
-                  link="https://www.linkedin.com/in/tahirahmad01/"
+                  link="https://www.linkedin.com/in/md-tanzil/"
                   delay={250}
                 />
                 <SocialContact
                   icon="fab fa-twitter"
                   name="twitter"
-                  link="https://twitter.com/tahir_ahmad01"
+                  link="https://twitter.com/Md_Tanzil1999"
                   delay={300}
                 />
                 <SocialContact
                   icon="fab fa-instagram"
                   name="instagram"
-                  link="https://www.instagram.com/tahir_ahmad01/"
+                  link="https://www.instagram.com/ahmed.tanzil140/"
                   delay={350}
                 />
               </ul>
